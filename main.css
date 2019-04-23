@@ -183,6 +183,20 @@ img.profile-pic {
   font-weight: 300;
 }
 
+/*HOME PAGE*/
+.home-body {
+  background-color: black;
+  color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.home-image {
+  width: 30%;
+  margin: auto;
+}
+
 @media screen and (max-width: 600px) {
   img.profile-pic {
     height: 60%;
