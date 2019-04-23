@@ -188,6 +188,7 @@ img.profile-pic {
   background-color: black;
   color: white;
   display: block;
+  text-align: center;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -195,6 +196,9 @@ img.profile-pic {
 .home-image {
   width: 30%;
   margin: auto;
+}
+.home-body .col.is-8 {
+  width: fit-content;
 }
 
 @media screen and (max-width: 600px) {
